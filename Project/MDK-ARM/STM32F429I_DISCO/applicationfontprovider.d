@@ -1,0 +1,17 @@
+stm32f429i_disco\applicationfontprovider.o: ../touchgfx/generated/fonts/src/applicationfontprovider.cpp
+stm32f429i_disco\applicationfontprovider.o: ../touchgfx/generated/fonts/include/fonts/ApplicationFontProvider.hpp
+stm32f429i_disco\applicationfontprovider.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/FontManager.hpp
+stm32f429i_disco\applicationfontprovider.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/Font.hpp
+stm32f429i_disco\applicationfontprovider.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/hal/Types.hpp
+stm32f429i_disco\applicationfontprovider.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f429i_disco\applicationfontprovider.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+stm32f429i_disco\applicationfontprovider.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/hal/Config.hpp
+stm32f429i_disco\applicationfontprovider.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/Unicode.hpp
+stm32f429i_disco\applicationfontprovider.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+stm32f429i_disco\applicationfontprovider.o: ../touchgfx/generated/fonts/include/fonts/GeneratedFont.hpp
+stm32f429i_disco\applicationfontprovider.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/ConstFont.hpp
+stm32f429i_disco\applicationfontprovider.o: ../touchgfx/generated/texts/include/texts/TypedTextDatabase.hpp
+stm32f429i_disco\applicationfontprovider.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/TypedText.hpp
+stm32f429i_disco\applicationfontprovider.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\cassert
+stm32f429i_disco\applicationfontprovider.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+stm32f429i_disco\applicationfontprovider.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/Texts.hpp

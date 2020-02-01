@@ -1,0 +1,2 @@
+stm32f429i_disco\blue_slider_horizontal_small_slider_horizontal_small_round_back.o: ../touchgfx/generated/images/src/__designer/blue_slider_horizontal_small_slider_horizontal_small_round_back.cpp
+stm32f429i_disco\blue_slider_horizontal_small_slider_horizontal_small_round_back.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/hal/Config.hpp
