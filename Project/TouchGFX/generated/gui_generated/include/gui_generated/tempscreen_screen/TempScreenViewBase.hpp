@@ -11,6 +11,7 @@
 #include <touchgfx/widgets/BoxWithBorder.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/containers/progress_indicators/BoxProgress.hpp>
 
 class TempScreenViewBase : public touchgfx::View<TempScreenPresenter>
@@ -33,8 +34,14 @@ protected:
     touchgfx::ButtonWithLabel PreviousPageButton;
     touchgfx::ButtonWithLabel NextPageButton;
     touchgfx::TextArea textArea1;
-    touchgfx::TextArea TempText;
+    touchgfx::TextAreaWithOneWildcard TempText;
     touchgfx::BoxProgress TempBar;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t TEMPTEXT_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar TempTextBuffer[TEMPTEXT_SIZE];
 
 private:
 

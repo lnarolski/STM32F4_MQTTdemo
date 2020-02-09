@@ -141,9 +141,9 @@
             "AutoSize": true,
             "LineSpacing": 0,
             "Name": "textArea1",
-            "X": 25,
+            "X": 38,
             "Y": 8,
-            "Width": 190,
+            "Width": 169,
             "Height": 25,
             "Type": "TextArea",
             "Visible": true,
@@ -311,7 +311,7 @@
             "Moveable": false
           },
           {
-            "TextId": "SingleUseId13",
+            "TextId": "SingleUseId25",
             "TextRotation": "0",
             "Color": {
               "Red": 0,
@@ -321,10 +321,15 @@
             "Alpha": 255,
             "AutoSize": true,
             "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId26",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
             "Name": "TempText",
-            "X": 93,
+            "X": 105,
             "Y": 75,
-            "Width": 54,
+            "Width": 34,
             "Height": 25,
             "Type": "TextArea",
             "Visible": true,
@@ -510,9 +515,9 @@
             "AutoSize": true,
             "LineSpacing": 0,
             "Name": "textArea1",
-            "X": 35,
+            "X": 95,
             "Y": 37,
-            "Width": 170,
+            "Width": 58,
             "Height": 25,
             "Type": "TextArea",
             "Visible": true,
@@ -532,10 +537,15 @@
             "Alpha": 255,
             "AutoSize": true,
             "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId27",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
             "Name": "LightText",
-            "X": 89,
-            "Y": 74,
-            "Width": 62,
+            "X": 106,
+            "Y": 75,
+            "Width": 34,
             "Height": 25,
             "Type": "TextArea",
             "Visible": true,
@@ -955,10 +965,6 @@
         "IsResource": false
       },
       {
-        "TextEntryId": "SingleUseId13",
-        "IsResource": false
-      },
-      {
         "TextEntryId": "SingleUseId12",
         "IsResource": false
       },
@@ -1008,6 +1014,18 @@
       },
       {
         "TextEntryId": "SingleUseId23",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId25",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId26",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId27",
         "IsResource": false
       }
     ],

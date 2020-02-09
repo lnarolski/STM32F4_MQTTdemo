@@ -53,6 +53,7 @@ TouchGFX/build/ST/STM32F429IDISCO/TouchGFX/generated/gui_generated/src/tempscree
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/Texts.hpp \
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp \
+ c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp \
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp \
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp \
@@ -166,6 +167,8 @@ c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/
 c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 
 c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp:
+
+c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp:
 

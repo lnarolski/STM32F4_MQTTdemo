@@ -66,6 +66,7 @@ stm32f429i_disco\tempscreenpresenter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\asse
 stm32f429i_disco\tempscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/Texts.hpp
 stm32f429i_disco\tempscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
 stm32f429i_disco\tempscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/FontManager.hpp
+stm32f429i_disco\tempscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 stm32f429i_disco\tempscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp
 stm32f429i_disco\tempscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp
 stm32f429i_disco\tempscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp

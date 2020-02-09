@@ -45,7 +45,7 @@ MainScreenViewBase::MainScreenViewBase() :
     scrollList1.setDrawableSize(250, 0);
     scrollList1.setDrawables(scrollList1ListItems, updateItemCallback);
 
-    textArea1.setXY(25, 8);
+    textArea1.setXY(38, 8);
     textArea1.setColor(touchgfx::Color::getColorFrom24BitRGB(0, 0, 0));
     textArea1.setLinespacing(0);
     textArea1.setTypedText(touchgfx::TypedText(T_SINGLEUSEID23));

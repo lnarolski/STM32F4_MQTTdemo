@@ -70,6 +70,7 @@ TouchGFX/build/ST/STM32F429IDISCO/TouchGFX/target/BoardConfiguration.o: \
  TouchGFX/gui/include/gui/tempscreen_screen/TempScreenView.hpp \
  TouchGFX/generated/gui_generated/include/gui_generated/tempscreen_screen/TempScreenViewBase.hpp \
  TouchGFX/gui/include/gui/tempscreen_screen/TempScreenPresenter.hpp \
+ c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp \
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp \
  c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp \
@@ -268,6 +269,8 @@ TouchGFX/gui/include/gui/tempscreen_screen/TempScreenView.hpp:
 TouchGFX/generated/gui_generated/include/gui_generated/tempscreen_screen/TempScreenViewBase.hpp:
 
 TouchGFX/gui/include/gui/tempscreen_screen/TempScreenPresenter.hpp:
+
+c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 c:/TouchGFXProjects/STM32F4_MQQTdemo/Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp:
 

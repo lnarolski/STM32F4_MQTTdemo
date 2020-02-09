@@ -113,6 +113,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_adc.h"
 
 /** @addtogroup STM32F4xx_HAL_Driver
   * @{
@@ -123,6 +124,7 @@
   * @{
   */ 
 
+#define HAL_ADC_MODULE_ENABLED
 #ifdef HAL_ADC_MODULE_ENABLED
     
 /* Private typedef -----------------------------------------------------------*/

@@ -11,6 +11,7 @@
 #include <touchgfx/widgets/BoxWithBorder.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/containers/progress_indicators/BoxProgress.hpp>
 
 class LightScreenViewBase : public touchgfx::View<LightScreenPresenter>
@@ -33,8 +34,14 @@ protected:
     touchgfx::ButtonWithLabel PreviousPageButton;
     touchgfx::ButtonWithLabel NextPageButton;
     touchgfx::TextArea textArea1;
-    touchgfx::TextArea LightText;
+    touchgfx::TextAreaWithOneWildcard LightText;
     touchgfx::BoxProgress LightBar;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t LIGHTTEXT_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar LightTextBuffer[LIGHTTEXT_SIZE];
 
 private:
 

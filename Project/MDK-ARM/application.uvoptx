@@ -152,50 +152,30 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>18</LineNumber>
+          <LineNumber>21</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134280600</Address>
+          <Address>134286080</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>../touchgfx/gui/src/rgbscreen_screen/rgbscreenview.cpp</Filename>
+          <Filename>../touchgfx/gui/src/lightscreen_screen/lightscreenview.cpp</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\STM32F429I_DISCO\../touchgfx/gui/src/rgbscreen_screen/rgbscreenview.cpp\18</Expression>
+          <Expression>\\STM32F429I_DISCO\../touchgfx/gui/src/lightscreen_screen/lightscreenview.cpp\21</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
         <Ww>
           <count>0</count>
           <WinNumber>1</WinNumber>
-          <ItemText>RedDuty,0x0A</ItemText>
+          <ItemText>widgetValue,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>1</count>
           <WinNumber>1</WinNumber>
-          <ItemText>GreenDuty,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>2</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>BlueDuty,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>3</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>value,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>4</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>value,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>5</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>value,0x0A</ItemText>
+          <ItemText>LightTextBuffer</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>
@@ -396,7 +376,7 @@
 
   <Group>
     <GroupName>Drivers/BSP/Components</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1220,7 +1200,7 @@
 
   <Group>
     <GroupName>generated</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
