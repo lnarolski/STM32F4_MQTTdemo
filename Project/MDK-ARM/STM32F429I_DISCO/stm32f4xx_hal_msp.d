@@ -102,6 +102,7 @@ stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/lightscreen_screen/LightScreenView.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/generated/gui_generated/include/gui_generated/lightscreen_screen/LightScreenViewBase.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/lightscreen_screen/LightScreenPresenter.hpp

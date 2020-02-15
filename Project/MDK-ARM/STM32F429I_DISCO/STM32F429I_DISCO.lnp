@@ -8,6 +8,8 @@
 "stm32f429i_disco\main.o"
 "stm32f429i_disco\stm32f4xx_hal_timebase_tim.o"
 "stm32f429i_disco\stm32f4xx_hal_msp.o"
+"stm32f429i_disco\ds18b20.o"
+"stm32f429i_disco\onewire.o"
 "stm32f429i_disco\system_stm32f4xx.o"
 "stm32f429i_disco\ili9341.o"
 "stm32f429i_disco\stmpe811.o"

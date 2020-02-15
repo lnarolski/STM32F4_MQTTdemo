@@ -52,7 +52,7 @@
           <OutputName>STM32F429I_DISCO</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath></ListingPath>
@@ -431,6 +431,16 @@
               <FileName>stm32f4xx_hal_msp.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>..\Core\Src\stm32f4xx_hal_msp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ds18b20.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\ds18b20.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>onewire.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\onewire.cpp</FilePath>
             </File>
           </Files>
         </Group>

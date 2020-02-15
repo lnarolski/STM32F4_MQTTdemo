@@ -7,6 +7,8 @@
 #define Blue_PWM_GPIO_Port GPIOA
 #define Red_PWM_Pin GPIO_PIN_9
 #define Red_PWM_GPIO_Port GPIOE
+#define Temp_Output_Pin GPIO_PIN_7
+#define Temp_Output_GPIO_Port GPIOA
 
 #include <gui_generated/rgbscreen_screen/RGBScreenViewBase.hpp>
 #include <gui/rgbscreen_screen/RGBScreenPresenter.hpp>

@@ -70,3 +70,4 @@ stm32f429i_disco\stm32f4dma.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_
 stm32f429i_disco\stm32f4dma.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 stm32f429i_disco\stm32f4dma.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 stm32f429i_disco\stm32f4dma.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+stm32f429i_disco\stm32f4dma.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
