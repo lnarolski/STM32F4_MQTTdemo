@@ -1,0 +1,9 @@
+stm32f429i_disco\esp8266client.o: ..\Core\Src\ESP8266Client.cpp
+stm32f429i_disco\esp8266client.o: ../Core/Inc/ESP8266Client.h
+stm32f429i_disco\esp8266client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+stm32f429i_disco\esp8266client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+stm32f429i_disco\esp8266client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f429i_disco\esp8266client.o: ../Core/Inc/circularuart.h
+stm32f429i_disco\esp8266client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+stm32f429i_disco\esp8266client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+stm32f429i_disco\esp8266client.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h

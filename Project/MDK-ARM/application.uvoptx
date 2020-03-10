@@ -152,18 +152,50 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>60</LineNumber>
+          <LineNumber>29</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134289578</Address>
+          <Address>134293412</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>../touchgfx/gui/src/tempscreen_screen/tempscreenview.cpp</Filename>
+          <Filename>../touchgfx/gui/src/mainscreen_screen/mainscreenview.cpp</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\STM32F429I_DISCO\../touchgfx/gui/src/tempscreen_screen/tempscreenview.cpp\60</Expression>
+          <Expression>\\STM32F429I_DISCO\../touchgfx/gui/src/mainscreen_screen/mainscreenview.cpp\29</Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
+          <LineNumber>19</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134293360</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../touchgfx/gui/src/mainscreen_screen/mainscreenview.cpp</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\STM32F429I_DISCO\../touchgfx/gui/src/mainscreen_screen/mainscreenview.cpp\19</Expression>
+        </Bp>
+        <Bp>
+          <Number>2</Number>
+          <Type>0</Type>
+          <LineNumber>15</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>../touchgfx/gui/src/mainscreen_screen/mainscreenview.cpp</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -180,27 +212,17 @@
         <Ww>
           <count>2</count>
           <WinNumber>1</WinNumber>
-          <ItemText>_DS18B20_TIMER.Instance-&gt;CNT,0x0A</ItemText>
+          <ItemText>ds18b20[i].Temperature</ItemText>
         </Ww>
         <Ww>
           <count>3</count>
           <WinNumber>1</WinNumber>
-          <ItemText>us,0x0A</ItemText>
+          <ItemText>TempTextBuffer,0x10</ItemText>
         </Ww>
         <Ww>
           <count>4</count>
           <WinNumber>1</WinNumber>
-          <ItemText>_DS18B20_TIMER</ItemText>
-        </Ww>
-        <Ww>
-          <count>5</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>ds18b20[i].Temperature</ItemText>
-        </Ww>
-        <Ww>
-          <count>6</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>TempTextBuffer,0x10</ItemText>
+          <ItemText>(int) ds18b20[i].Temperature</ItemText>
         </Ww>
       </WatchWindow1>
       <MemoryWindow1>
@@ -465,7 +487,7 @@
 
   <Group>
     <GroupName>Drivers/STM32F4xx_HAL_Driver</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

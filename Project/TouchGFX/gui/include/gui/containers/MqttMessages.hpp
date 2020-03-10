@@ -10,6 +10,7 @@ public:
     virtual ~MqttMessages() {}
 
     virtual void initialize();
+		virtual void handleTickEvent();
 protected:
 };
 

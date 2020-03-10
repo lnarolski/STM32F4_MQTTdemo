@@ -43,6 +43,7 @@ stm32f429i_disco\resistivetouchcontroller.o: ../../Drivers/STM32F4xx_HAL_Driver/
 stm32f429i_disco\resistivetouchcontroller.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 stm32f429i_disco\resistivetouchcontroller.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 stm32f429i_disco\resistivetouchcontroller.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+stm32f429i_disco\resistivetouchcontroller.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 stm32f429i_disco\resistivetouchcontroller.o: ../../Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/stmpe811.h
 stm32f429i_disco\resistivetouchcontroller.o: ../../Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/ts.h
 stm32f429i_disco\resistivetouchcontroller.o: ../../Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/io.h

@@ -254,7 +254,6 @@ static void MX_TIM4_Init(void)
   htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim4.Init.Period = 65535;
   htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  //htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
   {
     Error_Handler();
@@ -274,17 +273,6 @@ static void MX_TIM4_Init(void)
   {
     Error_Handler();
   }
-//  sConfigIC.ICPolarity = TIM_INPUTCHANNELPOLARITY_RISING;
-//  sConfigIC.ICSelection = TIM_ICSELECTION_DIRECTTI;
-//  sConfigIC.ICPrescaler = TIM_ICPSC_DIV1;
-//  sConfigIC.ICFilter = 0;
-//  if (HAL_TIM_IC_ConfigChannel(&htim4, &sConfigIC, TIM_CHANNEL_1) != HAL_OK)
-//  {
-//    Error_Handler();
-//  }
-  /* USER CODE BEGIN TIM4_Init 2 */
-
-  /* USER CODE END TIM4_Init 2 */
 
 }
 

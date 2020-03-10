@@ -1,5 +1,10 @@
 #include <gui/containers/MqttMessages.hpp>
 
+void MqttMessages::handleTickEvent()
+{
+
+}
+
 MqttMessages::MqttMessages()
 {
 

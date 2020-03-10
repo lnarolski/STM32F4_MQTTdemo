@@ -132,6 +132,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_usart.h"
 
 /** @addtogroup STM32F4xx_HAL_Driver
   * @{
@@ -141,6 +142,8 @@
   * @brief HAL USART Synchronous module driver
   * @{
   */
+	
+#define HAL_USART_MODULE_ENABLED
 #ifdef HAL_USART_MODULE_ENABLED
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
