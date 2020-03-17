@@ -42,7 +42,7 @@ MainScreenViewBase::MainScreenViewBase() :
     scrollList1.setNumberOfItems(10);
     scrollList1.setPadding(0, 0);
     scrollList1.setSnapping(false);
-    scrollList1.setDrawableSize(250, 0);
+    scrollList1.setDrawableSize(24, 0);
     scrollList1.setDrawables(scrollList1ListItems, updateItemCallback);
 
     textArea1.setXY(38, 8);

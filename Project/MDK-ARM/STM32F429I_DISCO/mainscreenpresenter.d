@@ -70,6 +70,7 @@ stm32f429i_disco\mainscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/f
 stm32f429i_disco\mainscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp
 stm32f429i_disco\mainscreenpresenter.o: ../touchgfx/gui/include/gui/containers/MqttMessages.hpp
 stm32f429i_disco\mainscreenpresenter.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/MqttMessagesBase.hpp
+stm32f429i_disco\mainscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 stm32f429i_disco\mainscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
 stm32f429i_disco\mainscreenpresenter.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/FontManager.hpp
 stm32f429i_disco\mainscreenpresenter.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h

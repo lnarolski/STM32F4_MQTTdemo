@@ -20,7 +20,7 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-#include <gui/rgbscreen_screen/RGBScreenView.hpp>
+#include <gui/mainscreen_screen/MainScreenView.hpp>
 
 #include <gui/lightscreen_screen/LightScreenView.hpp>
 /* USER CODE BEGIN Includes */

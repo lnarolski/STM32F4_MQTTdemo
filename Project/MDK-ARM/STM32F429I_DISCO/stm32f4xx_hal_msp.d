@@ -1,6 +1,6 @@
 stm32f429i_disco\stm32f4xx_hal_msp.o: ..\Core\Src\stm32f4xx_hal_msp.cpp
-stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/rgbscreen_screen/RGBScreenView.hpp
-stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/generated/gui_generated/include/gui_generated/rgbscreen_screen/RGBScreenViewBase.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/mainscreen_screen/MainScreenView.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/generated/gui_generated/include/gui_generated/mainscreen_screen/MainScreenViewBase.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/common/FrontendApplication.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/mvp/MVPApplication.hpp
@@ -51,7 +51,7 @@ stm32f429i_disco\stm32f4xx_hal_msp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\except
 stm32f429i_disco\stm32f4xx_hal_msp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\cassert
 stm32f429i_disco\stm32f4xx_hal_msp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/model/Model.hpp
-stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/rgbscreen_screen/RGBScreenPresenter.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/mainscreen_screen/MainScreenPresenter.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/model/ModelListener.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/Box.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/Widget.hpp
@@ -64,10 +64,15 @@ stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/fra
 stm32f429i_disco\stm32f4xx_hal_msp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\cassert
 stm32f429i_disco\stm32f4xx_hal_msp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/Texts.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/EasingEquations.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/containers/MqttMessages.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/MqttMessagesBase.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/FontManager.hpp
-stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/Slider.hpp
-stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../Core/Inc/stm32f4xx_hal_conf.h
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
@@ -107,9 +112,9 @@ stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/lightscreen_screen/LightScreenView.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/generated/gui_generated/include/gui_generated/lightscreen_screen/LightScreenViewBase.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../touchgfx/gui/include/gui/lightscreen_screen/LightScreenPresenter.hpp
-stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp
+stm32f429i_disco\stm32f4xx_hal_msp.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/Image.hpp
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
 stm32f429i_disco\stm32f4xx_hal_msp.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h

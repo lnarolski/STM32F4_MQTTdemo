@@ -54,6 +54,7 @@ build/MINGW32_NT-6.2/gui/src/tempscreen_screen/TempScreenPresenter.o: \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/Texts.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp \
@@ -166,6 +167,8 @@ gui/include/gui/model/ModelListener.hpp:
 ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 
 ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp:
 

@@ -39,7 +39,7 @@ protected:
     touchgfx::ButtonWithLabel PreviousPageButton;
     touchgfx::ButtonWithLabel NextPageButton;
     touchgfx::ScrollList scrollList1;
-    touchgfx::DrawableListItems<MqttMessages, 2> scrollList1ListItems;
+    touchgfx::DrawableListItems<MqttMessages, 10> scrollList1ListItems;
     touchgfx::TextArea textArea1;
 
 private:

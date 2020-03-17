@@ -41,7 +41,13 @@ build/MINGW32_NT-6.2/gui/src/containers/MqttMessages.o: \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/JSMOCHelper.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/mvp/Presenter.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/mvp/MVPHeap.hpp \
- gui/include/gui/model/Model.hpp
+ gui/include/gui/model/Model.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/TypedText.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/Texts.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/Widget.hpp
 
 gui/include/gui/containers/MqttMessages.hpp:
 
@@ -126,3 +132,15 @@ generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/mvp/MVPHeap.hpp:
 
 gui/include/gui/model/Model.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/TypedText.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/Texts.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:

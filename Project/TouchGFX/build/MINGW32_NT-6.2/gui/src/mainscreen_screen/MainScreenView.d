@@ -58,6 +58,7 @@ build/MINGW32_NT-6.2/gui/src/mainscreen_screen/MainScreenView.o: \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp \
  gui/include/gui/containers/MqttMessages.hpp \
  generated/gui_generated/include/gui_generated/containers/MqttMessagesBase.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp
 
@@ -176,6 +177,8 @@ gui/include/gui/model/ModelListener.hpp:
 gui/include/gui/containers/MqttMessages.hpp:
 
 generated/gui_generated/include/gui_generated/containers/MqttMessagesBase.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 

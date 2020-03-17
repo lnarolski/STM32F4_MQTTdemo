@@ -6,6 +6,7 @@
 
 #include <gui/common/FrontendApplication.hpp>
 #include <touchgfx/containers/Container.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 
 class MqttMessagesBase : public touchgfx::Container
 {
@@ -18,6 +19,17 @@ protected:
     FrontendApplication& application() {
         return *static_cast<FrontendApplication*>(touchgfx::Application::getInstance());
     }
+
+    /*
+     * Member Declarations
+     */
+    touchgfx::TextAreaWithOneWildcard text;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t TEXT_SIZE = 30;
+    touchgfx::Unicode::UnicodeChar textBuffer[TEXT_SIZE];
 
 private:
 

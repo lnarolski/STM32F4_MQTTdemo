@@ -40,7 +40,15 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/containers/MqttMessagesBase.o: 
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/JSMOCHelper.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/mvp/Presenter.hpp \
  ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/mvp/MVPHeap.hpp \
- gui/include/gui/model/Model.hpp
+ gui/include/gui/model/Model.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/TypedText.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/Texts.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/Color.hpp
 
 generated/gui_generated/include/gui_generated/containers/MqttMessagesBase.hpp:
 
@@ -123,3 +131,19 @@ generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp
 ../../Middlewares/ST/TouchGFX/touchgfx/framework/include/mvp/MVPHeap.hpp:
 
 gui/include/gui/model/Model.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/FontManager.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/TypedText.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/Texts.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
+
+../../Middlewares/ST/TouchGFX/touchgfx/framework/include/touchgfx/Color.hpp:

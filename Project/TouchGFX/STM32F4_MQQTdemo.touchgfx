@@ -329,7 +329,7 @@
             "Name": "TempText",
             "X": 105,
             "Y": 75,
-            "Width": 34,
+            "Width": 38,
             "Height": 25,
             "Type": "TextArea",
             "Visible": true,
@@ -946,13 +946,41 @@
     ],
     "CustomContainerDefinitions": [
       {
-        "Components": [],
+        "Components": [
+          {
+            "TextId": "SingleUseId29",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 30
+            },
+            "Name": "text",
+            "X": 0,
+            "Y": 0,
+            "Width": 240,
+            "Height": 24,
+            "Type": "TextArea",
+            "Visible": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
         "Interactions": [],
         "Name": "MqttMessages",
         "X": 0,
         "Y": 0,
         "Width": 240,
-        "Height": 250
+        "Height": 24
       }
     ],
     "TextEntries": [
@@ -1027,6 +1055,10 @@
       {
         "TextEntryId": "SingleUseId27",
         "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId29",
+        "IsResource": false
       }
     ],
     "Name": "STM32F4_MQQTdemo",
@@ -1035,7 +1067,7 @@
       "Height": 320
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "RGBScreen",
+    "StartupScreenName": "MainScreen",
     "SelectedStartupLanguage": "GB",
     "Skin": "Blue",
     "TouchGfxPath": "../../Middlewares/ST/TouchGFX/touchgfx",

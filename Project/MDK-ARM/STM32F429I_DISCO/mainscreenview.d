@@ -70,6 +70,7 @@ stm32f429i_disco\mainscreenview.o: ../../middlewares/st/touchgfx/touchgfx/framew
 stm32f429i_disco\mainscreenview.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp
 stm32f429i_disco\mainscreenview.o: ../touchgfx/gui/include/gui/containers/MqttMessages.hpp
 stm32f429i_disco\mainscreenview.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/MqttMessagesBase.hpp
+stm32f429i_disco\mainscreenview.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 stm32f429i_disco\mainscreenview.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
 stm32f429i_disco\mainscreenview.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/FontManager.hpp
 stm32f429i_disco\mainscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
@@ -109,8 +110,3 @@ stm32f429i_disco\mainscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f
 stm32f429i_disco\mainscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 stm32f429i_disco\mainscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 stm32f429i_disco\mainscreenview.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-stm32f429i_disco\mainscreenview.o: ../touchgfx/gui/include/gui/rgbscreen_screen/RGBScreenView.hpp
-stm32f429i_disco\mainscreenview.o: ../touchgfx/generated/gui_generated/include/gui_generated/rgbscreen_screen/RGBScreenViewBase.hpp
-stm32f429i_disco\mainscreenview.o: ../touchgfx/gui/include/gui/rgbscreen_screen/RGBScreenPresenter.hpp
-stm32f429i_disco\mainscreenview.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/Slider.hpp
-stm32f429i_disco\mainscreenview.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/Image.hpp

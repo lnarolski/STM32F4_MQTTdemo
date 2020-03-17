@@ -73,6 +73,7 @@ stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchg
 stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../touchgfx/gui/include/gui/containers/MqttMessages.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/MqttMessagesBase.hpp
+stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/FontManager.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
@@ -114,7 +115,6 @@ stm32f429i_disco\frontendapplicationbase.o: ../../Drivers/STM32F4xx_HAL_Driver/I
 stm32f429i_disco\frontendapplicationbase.o: ../touchgfx/gui/include/gui/tempscreen_screen/TempScreenView.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../touchgfx/generated/gui_generated/include/gui_generated/tempscreen_screen/TempScreenViewBase.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../touchgfx/gui/include/gui/tempscreen_screen/TempScreenPresenter.hpp
-stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/BoxProgress.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractDirectionProgress.hpp
 stm32f429i_disco\frontendapplicationbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp

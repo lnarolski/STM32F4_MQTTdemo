@@ -10,7 +10,9 @@ public:
     virtual ~MqttMessages() {}
 
     virtual void initialize();
-		virtual void handleTickEvent();
+		void SetText(char* t);
+		void SetText(touchgfx::Unicode::UnicodeChar* t);
+		touchgfx::Unicode::UnicodeChar* GetText();
 protected:
 };
 

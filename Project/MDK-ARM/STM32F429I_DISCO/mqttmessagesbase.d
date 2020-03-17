@@ -50,3 +50,14 @@ stm32f429i_disco\mqttmessagesbase.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\excepti
 stm32f429i_disco\mqttmessagesbase.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\cassert
 stm32f429i_disco\mqttmessagesbase.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
 stm32f429i_disco\mqttmessagesbase.o: ../touchgfx/gui/include/gui/model/Model.hpp
+stm32f429i_disco\mqttmessagesbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
+stm32f429i_disco\mqttmessagesbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
+stm32f429i_disco\mqttmessagesbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/FontManager.hpp
+stm32f429i_disco\mqttmessagesbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/TypedText.hpp
+stm32f429i_disco\mqttmessagesbase.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\cassert
+stm32f429i_disco\mqttmessagesbase.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+stm32f429i_disco\mqttmessagesbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/Texts.hpp
+stm32f429i_disco\mqttmessagesbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/Widget.hpp
+stm32f429i_disco\mqttmessagesbase.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+stm32f429i_disco\mqttmessagesbase.o: ../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp
+stm32f429i_disco\mqttmessagesbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/Color.hpp

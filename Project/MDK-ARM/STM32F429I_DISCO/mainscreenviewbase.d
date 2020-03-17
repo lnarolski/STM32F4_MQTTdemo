@@ -69,6 +69,7 @@ stm32f429i_disco\mainscreenviewbase.o: ../../middlewares/st/touchgfx/touchgfx/fr
 stm32f429i_disco\mainscreenviewbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp
 stm32f429i_disco\mainscreenviewbase.o: ../touchgfx/gui/include/gui/containers/MqttMessages.hpp
 stm32f429i_disco\mainscreenviewbase.o: ../touchgfx/generated/gui_generated/include/gui_generated/containers/MqttMessagesBase.hpp
+stm32f429i_disco\mainscreenviewbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
 stm32f429i_disco\mainscreenviewbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
 stm32f429i_disco\mainscreenviewbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/FontManager.hpp
 stm32f429i_disco\mainscreenviewbase.o: ../../middlewares/st/touchgfx/touchgfx/framework/include/touchgfx/Color.hpp
