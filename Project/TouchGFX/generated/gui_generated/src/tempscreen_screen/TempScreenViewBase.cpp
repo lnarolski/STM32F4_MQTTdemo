@@ -32,17 +32,16 @@ TempScreenViewBase::TempScreenViewBase() :
     NextPageButton.setLabelColorPressed(touchgfx::Color::getColorFrom24BitRGB(255, 255, 255));
     NextPageButton.setAction(buttonCallback);
 
-    textArea1.setXY(52, 36);
+    textArea1.setPosition(0, 36, 240, 31);
     textArea1.setColor(touchgfx::Color::getColorFrom24BitRGB(0, 0, 0));
     textArea1.setLinespacing(0);
     textArea1.setTypedText(touchgfx::TypedText(T_SINGLEUSEID12));
 
-    TempText.setXY(105, 75);
+    TempText.setPosition(0, 75, 240, 27);
     TempText.setColor(touchgfx::Color::getColorFrom24BitRGB(0, 0, 0));
     TempText.setLinespacing(0);
     Unicode::snprintf(TempTextBuffer, TEMPTEXT_SIZE, "%s", touchgfx::TypedText(T_SINGLEUSEID26).getText());
     TempText.setWildcard(TempTextBuffer);
-    TempText.resizeToCurrentText();
     TempText.setTypedText(touchgfx::TypedText(T_SINGLEUSEID25));
 
     TempBar.setXY(26, 128);

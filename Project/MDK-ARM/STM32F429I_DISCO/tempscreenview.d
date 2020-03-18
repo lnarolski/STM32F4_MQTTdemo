@@ -109,3 +109,5 @@ stm32f429i_disco\tempscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f
 stm32f429i_disco\tempscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 stm32f429i_disco\tempscreenview.o: ../Core/Inc/ds18b20.h
 stm32f429i_disco\tempscreenview.o: ../Core/Inc/onewire.h
+stm32f429i_disco\tempscreenview.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+stm32f429i_disco\tempscreenview.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -32,17 +32,16 @@ LightScreenViewBase::LightScreenViewBase() :
     NextPageButton.setLabelColorPressed(touchgfx::Color::getColorFrom24BitRGB(255, 255, 255));
     NextPageButton.setAction(buttonCallback);
 
-    textArea1.setXY(95, 37);
+    textArea1.setPosition(0, 37, 240, 30);
     textArea1.setColor(touchgfx::Color::getColorFrom24BitRGB(0, 0, 0));
     textArea1.setLinespacing(0);
     textArea1.setTypedText(touchgfx::TypedText(T_SINGLEUSEID16));
 
-    LightText.setXY(106, 75);
+    LightText.setPosition(0, 75, 240, 29);
     LightText.setColor(touchgfx::Color::getColorFrom24BitRGB(0, 0, 0));
     LightText.setLinespacing(0);
     Unicode::snprintf(LightTextBuffer, LIGHTTEXT_SIZE, "%s", touchgfx::TypedText(T_SINGLEUSEID27).getText());
     LightText.setWildcard(LightTextBuffer);
-    LightText.resizeToCurrentText();
     LightText.setTypedText(touchgfx::TypedText(T_SINGLEUSEID17));
 
     LightBar.setXY(26, 128);

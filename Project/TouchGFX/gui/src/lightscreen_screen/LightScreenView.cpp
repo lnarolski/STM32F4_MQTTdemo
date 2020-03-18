@@ -1,4 +1,6 @@
 #include <gui/lightscreen_screen/LightScreenView.hpp>
+#include <string.h>
+#include <stdio.h>
 
 extern ADC_HandleTypeDef hadc2;
 extern DMA_HandleTypeDef hdma_adc2;
@@ -9,6 +11,8 @@ touchgfx::BoxProgress* windowLightBar;
 touchgfx::TextArea* windowTextArea1;
 touchgfx::TextArea* windowLightText;
 
+extern UART_HandleTypeDef huart7;
+
 void LightScreenView::handleTickEvent()
 {
 	if (isVisiblePage)
@@ -16,12 +20,30 @@ void LightScreenView::handleTickEvent()
 			volatile HAL_StatusTypeDef status = HAL_ADC_PollForConversion(&hadc2, 300);
 			lightValue = HAL_ADC_GetValue(&hadc2);
 		
-			uint32_t widgetValue = (int) ((double) lightValue / 4095.0 * 100.0);
+			double valD = (double) lightValue / 4095.0 * 100.0;
+			valD -= 20.0;
+			valD /= 0.7;
+			valD = valD < 0.0 ? 0.0 : valD > 100.0 ? 100.0 : valD;
+			int valI = (int) valD;
+			uint32_t widgetValue = valI;
 		
 			Unicode::snprintf(LightTextBuffer, LIGHTTEXT_SIZE, "%d", widgetValue);
-			LightText.resizeToCurrentText();
+			//LightText.resizeToCurrentText();
 			LightText.invalidate();
 			windowLightBar->setValue(widgetValue);
+		
+			static size_t i = 0;
+			if (i > 50)
+			{
+				char buffer[17] = {'\0'};
+				snprintf(buffer, sizeof(buffer), "SEND$light$%d%%\n", valI);
+				HAL_UART_Transmit(&huart7,(uint8_t*) buffer, strlen(buffer), 1000);
+				
+				i = 0;
+			}
+			else
+				++i;
+			
 			HAL_ADC_Start(&hadc2);
 	}
 }

@@ -1,5 +1,9 @@
 #include <gui/tempscreen_screen/TempScreenView.hpp>
 #include "ds18b20.h"
+#include <string.h>
+#include <stdio.h>
+
+extern UART_HandleTypeDef huart7;
 
 touchgfx::TextAreaWithOneWildcard* windowTempText;
 touchgfx::BoxProgress* windowTempBar;
@@ -26,9 +30,9 @@ void TempScreenView::handleTickEvent()
 	if (isVisiblePage && isInited)
 	{
 		DS18B20_ReadAll();
-		for(uint8_t i = 0; i < DS18B20_Quantity(); i++)
+		for (uint8_t i = 0; i < DS18B20_Quantity(); i++)
 		{
-			if(DS18B20_GetTemperature(i, &ds18b20[i].Temperature))
+			if (DS18B20_GetTemperature(i, &ds18b20[i].Temperature))
 			{
 				DS18B20_GetROM(i, ROM_tmp);
 				
@@ -36,9 +40,21 @@ void TempScreenView::handleTickEvent()
 				
 				Unicode::snprintfFloat(TempTextBuffer, TEMPTEXT_SIZE, "%.2f", ds18b20[i].Temperature);
 				
-				windowTempText->resizeToCurrentText();
+				//windowTempText->resizeToCurrentText();
 				windowTempText->invalidate();
 				windowTempBar->setValue((int) ds18b20[i].Temperature);
+				
+				static size_t j = 0;
+				if (j > 50)
+				{
+					char buffer[18] = {'\0'};
+					snprintf(buffer, sizeof(buffer), "SEND$temp$%3.2f\n", ds18b20[i].Temperature);
+					HAL_UART_Transmit(&huart7,(uint8_t*) buffer, strlen(buffer), 1000);
+					
+					j = 0;
+				}
+				else
+					++j;
 			}
 		}
 		DS18B20_StartAll();

@@ -27,14 +27,16 @@ Project File Date:  03/18/2020
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'STM32F429I_DISCO'
-compiling stm32f4xx_hal_msp.cpp...
+compiling MainScreenView.cpp...
 ../touchgfx/gui/include/gui/mainscreen_screen/MainScreenView.hpp(27): warning:  #1300-D: handleTickEvent inherits implicit virtual
   		void handleTickEvent();
-..\Core\Src\stm32f4xx_hal_msp.cpp: 1 warning, 0 errors
+../touchgfx/gui/src/mainscreen_screen/mainscreenview.cpp(253): warning:  #177-D: variable "sConfigIC"  was declared but never referenced
+    TIM_IC_InitTypeDef sConfigIC = {0};
+../touchgfx/gui/src/mainscreen_screen/mainscreenview.cpp: 2 warnings, 0 errors
 linking...
-Program Size: Code=146538 RO-data=76378 RW-data=844 ZI-data=44532  
+Program Size: Code=152744 RO-data=76552 RW-data=852 ZI-data=44532  
 FromELF: creating hex file...
-"STM32F429I_DISCO\STM32F429I_DISCO.axf" - 0 Error(s), 1 Warning(s).
+"STM32F429I_DISCO\STM32F429I_DISCO.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 

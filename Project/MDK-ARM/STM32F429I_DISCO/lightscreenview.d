@@ -109,3 +109,5 @@ stm32f429i_disco\lightscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32
 stm32f429i_disco\lightscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 stm32f429i_disco\lightscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
 stm32f429i_disco\lightscreenview.o: ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+stm32f429i_disco\lightscreenview.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+stm32f429i_disco\lightscreenview.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

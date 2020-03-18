@@ -341,7 +341,7 @@ void MainScreenView::handleTickEvent()
 		
 		/* Init tickstart for timeout managment */
     uint32_t tickstart = HAL_GetTick();
-		uint32_t timeout = 40;
+		uint32_t timeout = 50;
 		
 		while (UART_WaitOnFlagUntilTimeout(&huart7, UART_FLAG_RXNE, RESET, tickstart, timeout) == HAL_OK)
 		{
@@ -469,7 +469,7 @@ MainScreenView::MainScreenView()
 			HAL_TIM_PWM_Start_DMA(&htim3, TIM_CHANNEL_1, &BlueDuty, 1);
 		
 			MX_UART7_Init();
-			HAL_UART_Transmit(&huart7,(uint8_t*) "SUBS$demo\n", strlen("SUBS$demo\n"), 1000);
+			HAL_UART_Transmit(&huart7,(uint8_t*) "\nSUBS$demo\n", strlen("\nSUBS$demo\n"), 1000);
 		
 			inited = true;
 	}
