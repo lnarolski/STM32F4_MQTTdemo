@@ -35,22 +35,22 @@ void TempScreenView::handleTickEvent()
 			if (DS18B20_GetTemperature(i, &ds18b20[i].Temperature))
 			{
 				DS18B20_GetROM(i, ROM_tmp);
-				
+
 				ClearText(TempTextBuffer, TEMPTEXT_SIZE);
-				
+
 				Unicode::snprintfFloat(TempTextBuffer, TEMPTEXT_SIZE, "%.2f", ds18b20[i].Temperature);
-				
-				//windowTempText->resizeToCurrentText();
+
 				windowTempText->invalidate();
-				windowTempBar->setValue((int) ds18b20[i].Temperature);
-				
+				windowTempBar->setValue((int)ds18b20[i].Temperature);
+
+				// Send temperature value to 'temp' topic every ~second
 				static size_t j = 0;
 				if (j > 50)
 				{
-					char buffer[18] = {'\0'};
+					char buffer[18] = { '\0' };
 					snprintf(buffer, sizeof(buffer), "SEND$temp$%3.2f\n", ds18b20[i].Temperature);
-					HAL_UART_Transmit(&huart7,(uint8_t*) buffer, strlen(buffer), 1000);
-					
+					HAL_UART_Transmit(&huart7, (uint8_t*)buffer, strlen(buffer), 1000);
+
 					j = 0;
 				}
 				else
@@ -65,26 +65,26 @@ TempScreenView::TempScreenView()
 {
 	windowTempText = &this->TempText;
 	windowTempBar = &this->TempBar;
-	
+
 	if (!isInited)
 	{
 		DS18B20_Init(DS18B20_Resolution_12bits);
 		DS18B20_StartAll();
-		
+
 		isInited = true;
 	}
 }
 
 void TempScreenView::setupScreen()
 {
-    TempScreenViewBase::setupScreen();
-	
+	TempScreenViewBase::setupScreen();
+
 	isVisiblePage = true;
 }
 
 void TempScreenView::tearDownScreen()
 {
-    TempScreenViewBase::tearDownScreen();
-	
+	TempScreenViewBase::tearDownScreen();
+
 	isVisiblePage = false;
 }
