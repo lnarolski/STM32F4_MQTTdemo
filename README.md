@@ -16,7 +16,9 @@ The goal of this project was to try combine projects made in TouchGFX (GUI), STM
 # Pinout
 
 Pinout of STM32F429ZI is shown below:
-![pinout](/Img/pinout.png)
+<p align="center">
+  <img align="center" src="/Img/pinout.png">
+</p>
 
 # Schematic
 
