@@ -22,7 +22,9 @@ Pinout of STM32F429ZI is shown below:
 
 # Schematic
 
-Soon.
+<p align="center">
+  <img align="center" src="/Schematic/schematic.png">
+</p>
 
 # Screens
 
