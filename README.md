@@ -62,4 +62,8 @@ On this screen you can control light of RGB diode with 3 Slider widgets. To cont
 
 # Video
 
-Soon.
+<p align="center">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=lVDuat6gULU
+" target="_blank"><img src="http://img.youtube.com/vi/lVDuat6gULU/0.jpg" 
+alt="YouTube video" border="10" /></a>
+</p>
