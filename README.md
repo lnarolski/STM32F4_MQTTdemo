@@ -1,4 +1,4 @@
-# STM32F4_MQQTdemo
+# STM32F4_MQTTdemo
 Demo project showing possibility to combine projects from TouchGFX and STM32CubeMX software
 
 # Table of contents
